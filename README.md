@@ -67,3 +67,28 @@ export default tseslint.config([
   },
 ])
 ```
+# Advanced Counter App with useEffect
+
+This is a feature-rich counter application built using React, designed to reinforce and demonstrate a deep understanding of the `useState` and `useEffect` hooks. It includes core and advanced functionalities such as localStorage integration, keyboard interaction, state history tracking, and a customizable step input.
+
+## Features
+
+- **Core Functionality:**
+  - Display current count
+  - Increment/Decrement buttons
+
+- **Advanced Functionality:**
+  - **History Tracking:** Records and displays a log of 
+  - all previous count values
+  - **Auto-Save:** Saves the current count to localStorage on every change
+  - **Keyboard Interaction:** Use ArrowUp to increment and ArrowDown to decrement
+  - **Reset Mechanism:** Resets count and history
+  - **Custom Step Value:** User-defined increment/decrement step
+
+##  Technologies Used
+
+- React
+- TypeScript
+- TailwindCSS (optional)
+- useState, useEffect
+
